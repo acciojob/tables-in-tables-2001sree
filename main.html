@@ -4,23 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nested tables</title>
-    <link rel="stylesheet" href="style.css" />
-	  
-   <style>
-    table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-      padding: 8px;
-    }
-    .black-cell {
-      background-color: black;
-      color: white;
-    }
-  </style>
+    <link rel="stylesheet" href="style.css" /> 
 </head>
 <body>
   <h1>Tables in Tables</h1>
-  <table>
+	<table>
   <table border="1">
     <tr>
       <td>
@@ -73,12 +61,12 @@
             <th colspan="2">Nested Table 4</th>
           </tr>
           <tr>
-            <td class="black-cell" colspan="2">HTML</td>
+            <td style=background-color:black;color:white; class="black-cell" colspan="2">HTML</td>
           </tr>
         </table>
       </td>
     </tr>
   </table>
-  </table>
+	</table>
   </body>
 </html>
